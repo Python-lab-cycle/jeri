@@ -1,5 +1,6 @@
-#Accept an integer n and compute n+nn+nnn.
-Input  : 2 + 22 + 222 + 2222 + 22222
-i=int(input("Enter a number:")
-      num= (i+ ((i*10)+i)) + ((i*100)+(i*10)+i))
-    print(num)
+a=int(input("Input an integer :"))
+n1 = int("%s" % a)
+n2 = int("%s%s" % (a,a))
+n3 = int("%s%s%s" % (a,a,a))
+print(n1,"",n2,"",n3)
+print("sum=", (n1+n2+n3))
